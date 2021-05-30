@@ -1,4 +1,4 @@
-- id: "nocheckin-hook"
+- id: "nocheckin"
   name: "Pre-commit @nocheckin finder"
   entry: look.sh
   always_run: true
