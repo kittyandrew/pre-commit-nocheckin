@@ -1,6 +1,7 @@
 - id: "nocheckin-hook"
   name: "Pre-commit @nocheckin finder"
   entry: look.sh
-  types: [text]
+  always_run: true
+  pass_filenames: false
   language: "script"
   description: "Pre-commit hook which looks for @nocheckin messages in your files"
